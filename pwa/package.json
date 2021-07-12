@@ -1,0 +1,24 @@
+{
+    "name": "pwa",
+    "version": "1.0.0",
+    "description": "PWA de muestra",
+    "author": "Igor Parra B.",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "test:unit": "vue-cli-service test:unit"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "prettier": {
+        "printWidth": 79,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "none",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false
+    },
+    "license": "UNLICENSED"
+}
