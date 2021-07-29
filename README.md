@@ -1,4 +1,4 @@
-# Portafolio node.js, laravel, vue.js, vuetify de Igor Parra
+# Portafolio node.js, php ,laravel, vue.js, vuetify de Igor Parra
 
 - Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos de aquí y de allá para mostrar estilo y estructuras.
 
@@ -6,7 +6,7 @@
 
 - El directorio pwa contiene una muestra parcial de una aplicación de tipo progressive web application. Usa vuex para manejo de estados y axios para llamadas a api.
 
-## Microservicio en lumen/laravel
+## Microservicio en php lumen/laravel
 
 - El directorio ms contiene una muestra parcial de una aplicación de tipo microservicio api hecha con lumen, que es un subconjunto de laravel.
 
@@ -27,6 +27,15 @@
   - init.js: Inicialización de server.
   - interfaces: controlador api y repositorio de db
   - \_\_tests__: bateria de tests con jest y helper para test de integración via axios para simular llamadas api.
+
+# Referencias en comunidades de programadores
+
+* Stackoverflow:
+  > <a href="https://stackoverflow.com/users/333061/igor-parra?tab=topactivity"><img src="https://stackexchange.com/users/flair/132394.png" width="208" height="58" alt="profile for Igor Parra on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Igor Parra on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+
+* https://www.freelancer.com/u/NomikOS.html
+* http://gist.github.com/NomikOS
+* https://www.linkedin.com/in/igor-parra-bastias-06335059
 
 # Screenshots de apps vue.js
 
