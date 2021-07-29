@@ -1,4 +1,4 @@
-# Portafolio frontend con vue.js y vuetify de Igor Parra
+# Portafolio node.js, laravel, vue.js, vuetify de Igor Parra
 
 - Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos de aquí y de allá para mostrar estilo y estructuras.
 
