@@ -53,6 +53,23 @@ Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos 
   - [buildspec.yml](ci-cd/buildspec.yml): Para AWS Codebuild (Fully managed continuous integration service that compiles source code, runs tests, and produces software packages)
   - [cloudbuild.yaml](ci-cd/cloudbuild.yaml): Para GCP Cloud Build (Build, test, and deploy on our serverless CI/CD platform)
 
+# UML
+Uso de diagramas UML en la etapa de análisis y diseño:
+
+
+- Diagrama de actividad para definir un microservicio para Server Sent Events (sse) corriendo sobre GCP Cloud run.
+![Screenshot_2021-07-30_08-22-15.png](screenshots/Screenshot_2021-07-30_08-22-15.png)
+
+- Diagrama de actividad para definir un proceso periódico para envío de notificaciones push corriendo sobre MIGs (GCP managed instances groups). 
+![Screenshot_2021-07-30_08-22-38.png](screenshots/Screenshot_2021-07-30_08-22-38.png)
+
+- Diagrama de clase para definir relaciones entre objetos para realizar un publicación.
+![Screenshot_2021-07-30_08-24-02.png](screenshots/Screenshot_2021-07-30_08-24-02.png)
+
+- Diagrama ER para definir relaciones entre entidades de un sistema de publicación.
+![Screenshot_2021-07-30_08-25-29.png](screenshots/Screenshot_2021-07-30_08-25-29.png)
+
+
 # Screenshots de apps vue.js
 
 ## Mapas y categorias
@@ -67,7 +84,6 @@ Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos 
 ![Screenshot_2021-07-12_10-27-08.png](screenshots/Screenshot_2021-07-12_10-27-08.png)
 ![Screenshot_2021-07-12_09-47-45.png](screenshots/Screenshot_2021-07-12_09-47-45.png)
 ![Screenshot_2021-07-12_09-49-23.png](screenshots/Screenshot_2021-07-12_09-49-23.png)
-
 ![screenshot-localhost_9104-2021.07.12-10_28_00.png](screenshots/screenshot-localhost_9104-2021.07.12-10_28_00.png)
 
 # Referencias en comunidades de programadores
