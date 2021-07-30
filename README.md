@@ -1,18 +1,18 @@
 # Portafolio node.js, php ,laravel, vue.js, vuetify de Igor Parra
 
-- Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos de aquí y de allá para mostrar estilo y estructuras.
+Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos de aquí y de allá para mostrar estilo y estructuras.
 
 ## Vue.js y vuetify
 
-- El directorio pwa contiene una muestra parcial de una aplicación de tipo progressive web application. Usa vuex para manejo de estados y axios para llamadas a api.
+- El directorio [pwa](pwa) contiene una muestra parcial de una aplicación de tipo progressive web application. Usa vuex para manejo de estados y axios para llamadas a api.
 
 ## Microservicio en php lumen/laravel
 
-- El directorio ms contiene una muestra parcial de una aplicación de tipo microservicio api hecha con lumen, que es un subconjunto de laravel.
+- El directorio [ms](ms) contiene una muestra parcial de una aplicación de tipo microservicio api hecha con lumen, que es un subconjunto de laravel.
 
 ## Backends en node.js
 
-- El directorio api contiene una muestra parcial de una aplicación de tipo api hecha con node.js.
+- El directorio [api](api) contiene una muestra parcial de una aplicación de tipo api hecha con node.js.
 
 - En general este modelo de backend es el que uso siempre para apis o workers en node.js. Lo he ido afinando a traves del tiempo. Es muy flexible y eficiente.
   - Usa un modulo propio `module-koa-common` que tengo en un repo privado. En este caso lo incluyo como dependencia local.
@@ -29,7 +29,7 @@
   - \_\_tests__: bateria de tests con jest y helper para test de integración via axios para simular llamadas api.
 
 # Cloud
-- He estado usando Google Cloud Platform y Amazon Web Services por muchos años
+- He estado usando Google Cloud Platform y Amazon Web Services por muchos años:
   - GCP: Compute engine, Cloud SQL, Cloud DNS, Cloud run, Cloud functions, Cloud storage, etc.
   - AWS: EC2, Code Pipeline, RDS, VPC, S3, SNS, etc.
   - Firebase: Authentication, Cloud messaging ,etc.
@@ -38,7 +38,7 @@
 
 - Desde hace unos meses estoy aprendiendo a usar pulumi.
 - Este framework permite usar lenguajes como javascript, typescript y otros para expresar la infraestructura de una aplicación utilizando un método llamado "infraestructura como código" (IaC).
-- Se declara la infraestructura deseada, y pulumi automatiza todo el proceso de despliegue y actualziación de la infraestructura. 
+- Se declara la infraestructura deseada, y pulumi automatiza todo el proceso de despliegue y actualización de la infraestructura. 
 - Disponible para:
   - AWs
   - GCP
