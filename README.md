@@ -57,10 +57,10 @@ Ninguno de los códigos incluidos en este repo es ejecutable, son sólo retazos 
 Uso de diagramas UML en la etapa de análisis y diseño:
 
 
-- Diagrama de actividad para definir un microservicio para Server Sent Events (sse) corriendo sobre GCP Cloud run.
+- Diagrama de actividad para definir un microservicio para Server Sent Events (sse) corriendo sobre MIGs (GCP managed instances groups) con autoescalamiento y un HTTPS Load Balancer.
   - ![Screenshot_2021-07-30_08-22-15.png](screenshots/Screenshot_2021-07-30_08-22-15.png)
 
-- Diagrama de actividad para definir un proceso periódico para envío de notificaciones push corriendo sobre MIGs (GCP managed instances groups). 
+- Diagrama de actividad para definir un proceso periódico para envío de notificaciones push corriendo sobre MIGs (GCP managed instances groups) con autoescalamiento. 
   - ![Screenshot_2021-07-30_08-22-38.png](screenshots/Screenshot_2021-07-30_08-22-38.png)
 
 - Diagrama de clase para definir relaciones entre objetos para realizar un publicación.
