@@ -28,14 +28,30 @@
   - interfaces: controlador api y repositorio de db
   - \_\_tests__: bateria de tests con jest y helper para test de integración via axios para simular llamadas api.
 
-# Referencias en comunidades de programadores
+# Cloud
+- He estado usando Google Cloud Platform y Amazon Web Services por muchos años
+  - GCP: Compute engine, Cloud SQL, Cloud DNS, Cloud run, Cloud functions, Cloud storage, etc.
+  - AWS: EC2, Code Pipeline, RDS, VPC, S3, SNS, etc.
+  - Firebase: Authentication, Cloud messaging ,etc.
 
-* Stackoverflow:
-  > <a href="https://stackoverflow.com/users/333061/igor-parra?tab=topactivity"><img src="https://stackexchange.com/users/flair/132394.png" width="208" height="58" alt="profile for Igor Parra on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Igor Parra on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+# Pulumi 
 
-* https://www.freelancer.com/u/NomikOS.html
-* http://gist.github.com/NomikOS
-* https://www.linkedin.com/in/igor-parra-bastias-06335059
+- Desde hace unos meses estoy aprendiendo a usar pulumi.
+- Este framework permite usar lenguajes como javascript, typescript y otros para expresar la infraestructura de una aplicación utilizando un método llamado "infraestructura como código" (IaC).
+- Se declara la infraestructura deseada, y pulumi automatiza todo el proceso de despliegue y actualziación de la infraestructura. 
+- Disponible para:
+  - AWs
+  - GCP
+  - Microsoft Azure
+- Muestras de iac con pulumi:
+  - [index-gcp.ts](index-gcp.ts)
+  - [index-aws.ts](index-aws.ts)
+
+# CI/CD
+
+- Muestras de archivos de especificación de compilación:
+  - [buildspec.yml](ci-cd/buildspec.yml): Para AWS Codebuild (Fully managed continuous integration service that compiles source code, runs tests, and produces software packages)
+  - [cloudbuild.yaml](ci-cd/cloudbuild.yaml): Para GCP Cloud Build (Build, test, and deploy on our serverless CI/CD platform)
 
 # Screenshots de apps vue.js
 
@@ -53,6 +69,15 @@
 ![Screenshot_2021-07-12_09-49-23.png](screenshots/Screenshot_2021-07-12_09-49-23.png)
 
 ![screenshot-localhost_9104-2021.07.12-10_28_00.png](screenshots/screenshot-localhost_9104-2021.07.12-10_28_00.png)
+
+# Referencias en comunidades de programadores
+
+* Stackoverflow:
+  > <a href="https://stackoverflow.com/users/333061/igor-parra?tab=topactivity"><img src="https://stackexchange.com/users/flair/132394.png" width="208" height="58" alt="profile for Igor Parra on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Igor Parra on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+
+* https://www.freelancer.com/u/NomikOS.html
+* http://gist.github.com/NomikOS
+* https://www.linkedin.com/in/igor-parra-bastias-06335059
 
 # Contacto
 

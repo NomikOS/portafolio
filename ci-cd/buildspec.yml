@@ -1,0 +1,36 @@
+version: 0.2
+
+env:
+  shell: bash
+  variables:
+    NODE_ENV: "production"
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - echo Installing app dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Building static site...
+      - cp utils/babel.config.js ./babel.config.js
+      - cp utils/ecosystem.config.js ./ecosystem.config.js
+      - npm run build
+      # - echo Run tests...
+      # - CI=true yarn test
+
+artifacts:
+  files:
+    - dist/**/*
+    - node_modules/**/*
+    - appspec.yml
+    - env.yaml
+    - index.js
+    - package.json
+    - ecosystem.config.js
+    - run.sh
+
+cache:
+  paths:
+    - ./node_modules/**/*

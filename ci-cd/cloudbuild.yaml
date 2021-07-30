@@ -1,0 +1,63 @@
+steps:
+  - name: gcr.io/kaniko-project/executor:v0.17.1
+    id: build
+    args:
+      - --destination=gcr.io/$PROJECT_ID/sse-api:$BRANCH_NAME
+      - --destination=gcr.io/$PROJECT_ID/sse-api:$SHORT_SHA
+      - --cache=true
+      - --cache-ttl=168h
+      - --target=production-image
+
+  - name: gcr.io/cloud-builders/gcloud
+    id: delete-instance-template
+    args:
+      - compute
+      - instance-templates
+      - delete
+      - $_ENV-sse-api
+      - --quiet
+
+  - name: gcr.io/cloud-builders/gcloud
+    id: create-instance-template
+    args:
+      - compute
+      - instance-templates
+      - create-with-container
+      - $_ENV-sse-api
+      - --machine-type=e2-micro
+      - --boot-disk-size=10GB
+      - --boot-disk-type=pd-balanced
+      - --shielded-vtpm
+      - --shielded-integrity-monitoring
+      - --region=us-east1
+      - --container-restart-policy=always
+      - --container-image=gcr.io/$PROJECT_ID/sse-api:$SHORT_SHA
+      - --tags http-server
+
+  - name: gcr.io/cloud-builders/gcloud
+    id: wait-until-stable
+    args:
+      - compute
+      - instance-groups
+      - managed
+      - wait-until
+      - $_ENV-sse-api
+      - --region=us-east1
+      - --stable
+
+  - name: gcr.io/cloud-builders/gcloud
+    id: rolling-action-start-update
+    args:
+      - compute
+      - instance-groups
+      - managed
+      - rolling-action
+      - start-update
+      - $_ENV-sse-api
+      - --version=template=$_ENV-sse-api
+      - --region=us-east1
+      - --max-unavailable=0
+
+timeout: 120s
+tags:
+  - sse-api
