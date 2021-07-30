@@ -44,8 +44,8 @@
   - GCP
   - Microsoft Azure
 - Muestras de iac con pulumi:
-  - [index-gcp.ts](index-gcp.ts)
-  - [index-aws.ts](index-aws.ts)
+  - [index-gcp.ts](pulumi/index-gcp.ts)
+  - [index-aws.ts](pulumi/index-aws.ts)
 
 # CI/CD
 
