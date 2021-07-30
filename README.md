@@ -58,16 +58,16 @@ Uso de diagramas UML en la etapa de análisis y diseño:
 
 
 - Diagrama de actividad para definir un microservicio para Server Sent Events (sse) corriendo sobre GCP Cloud run.
-![Screenshot_2021-07-30_08-22-15.png](screenshots/Screenshot_2021-07-30_08-22-15.png)
+  - ![Screenshot_2021-07-30_08-22-15.png](screenshots/Screenshot_2021-07-30_08-22-15.png)
 
 - Diagrama de actividad para definir un proceso periódico para envío de notificaciones push corriendo sobre MIGs (GCP managed instances groups). 
-![Screenshot_2021-07-30_08-22-38.png](screenshots/Screenshot_2021-07-30_08-22-38.png)
+  - ![Screenshot_2021-07-30_08-22-38.png](screenshots/Screenshot_2021-07-30_08-22-38.png)
 
 - Diagrama de clase para definir relaciones entre objetos para realizar un publicación.
-![Screenshot_2021-07-30_08-24-02.png](screenshots/Screenshot_2021-07-30_08-24-02.png)
+  - ![Screenshot_2021-07-30_08-24-02.png](screenshots/Screenshot_2021-07-30_08-24-02.png)
 
 - Diagrama ER para definir relaciones entre entidades de un sistema de publicación.
-![Screenshot_2021-07-30_08-25-29.png](screenshots/Screenshot_2021-07-30_08-25-29.png)
+  - ![Screenshot_2021-07-30_08-25-29.png](screenshots/Screenshot_2021-07-30_08-25-29.png)
 
 
 # Screenshots de apps vue.js
