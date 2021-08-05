@@ -67,9 +67,7 @@ Uso de diagramas UML en la etapa de análisis y diseño:
   - ![Screenshot_2021-07-30_08-24-02.png](screenshots/Screenshot_2021-07-30_08-24-02.png)
 
 - Diagrama ER para definir relaciones entre entidades de un sistema de publicación.
-  - ![Screenshot_2021-07-30_08-25-29.png](screenshots/Screenshot_2021-07-30_08-25-29.png)
-
-
+  - ![Screenshot_2021-07-30_08-25-29.png](screenshots/
 # Screenshots de apps vue.js
 
 ## Mapas y categorias
@@ -95,13 +93,16 @@ Uso de diagramas UML en la etapa de análisis y diseño:
 * http://gist.github.com/NomikOS
 * https://www.linkedin.com/in/igor-parra-bastias-06335059
 
+Screenshot_2021-07-30_08-25-29.png)
+
+# Otros repos de interés
+
+- Cálculo de máxima ganancia (problema hackerrank)
+  - https://github.com/NomikOS/hackerrank-maximum-profit
+- Ejemplo de conección a servidor mqtt en node.js 
+  - https://github.com/NomikOS/ejemplo-mqtt-client
+
 # Contacto
 
 - usuario3@gmail.com
 - [igorparrabastias-gpg.txt](igorparrabastias-gpg.txt)
-
-
-
-
-
-
