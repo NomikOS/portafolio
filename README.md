@@ -84,7 +84,6 @@ Uso de diagramas UML en la etapa de análisis y diseño:
 ![Screenshot_2021-07-12_10-27-08.png](screenshots/Screenshot_2021-07-12_10-27-08.png)
 ![Screenshot_2021-07-12_09-47-45.png](screenshots/Screenshot_2021-07-12_09-47-45.png)
 ![Screenshot_2021-07-12_09-49-23.png](screenshots/Screenshot_2021-07-12_09-49-23.png)
-![screenshot-localhost_9104-2021.07.12-10_28_00.png](screenshots/screenshot-localhost_9104-2021.07.12-10_28_00.png)
 
 # Referencias en comunidades de programadores
 
